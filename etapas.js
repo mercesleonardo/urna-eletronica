@@ -4,19 +4,19 @@ let etapas = [
         numeros: 5,
         candidatos: [
             {
-                numero: 38111,
-                nome: 'Leonardo Carvalho',
+                numero: '38111',
+                nome: 'Fulano de Tal',
                 partido: 'ABC',
-                fotos: [
-                    { url: 'img1.png', legenda: 'Vereador' }
+                fotos:[
+                    {url:'38111.jpg', legenda: 'Vereador'}
                 ]
             },
             {
-                numero: 77222,
-                nome: 'Beltrano de Tal',
-                partido: 'ABCD',
-                fotos: [
-                    { url: 'img2.png', legenda: 'Vereador', small: false }
+                numero: '77222',
+                nome: 'Beltrano da Silva',
+                partido: 'DEFG',
+                fotos:[
+                    {url:'77222.jpg', legenda: 'Vereador'}
                 ]
             },
         ]
@@ -26,26 +26,25 @@ let etapas = [
         numeros: 2,
         candidatos: [
             {
-                numero: 36,
-                nome: 'Leonardo Mercês',
-                partido: 'ABCED',
-                vice: 'Jéssica',
-                fotos: [
-                    { url: 'img3.png', legenda: 'Prefeito' },
-                    { url: 'img2.png', legenda: 'Vice-Prefeito', small: true }
+                numero: '99',
+                nome: 'Ciclano',
+                partido: 'ABC',
+                vice: 'Cic',
+                fotos:[
+                    {url:'99.jpg', legenda: 'Prefeito'},
+                    {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
-                numero: 25,
-                nome: 'Jéssica Lourenço',
-                partido: 'ABCDE',
-                vice: 'Leonardo',
-                fotos: [
-                    { url: 'img1.png', legenda: 'Prefeito' },
-                    { url: 'img3.png', legenda: 'Vice-Prefeito', small: true}
+                numero: '84',
+                nome: 'Zulano',
+                partido: 'QWERTY',
+                vice: 'Zul',
+                fotos:[
+                    {url:'84.jpg', legenda: 'Prefeito'},
+                    {url:'84_2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
-            }
+            },
         ]
     }
 ];
-
